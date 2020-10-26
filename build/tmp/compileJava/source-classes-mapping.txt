@@ -1,2 +1,6 @@
 com/tarekham/calculator/CalculatorApplication.java
  com.tarekham.calculator.CalculatorApplication
+com/tarekham/calculator/Calculator.java
+ com.tarekham.calculator.Calculator
+com/tarekham/calculator/CalculatorController.java
+ com.tarekham.calculator.CalculatorController
