@@ -4,6 +4,11 @@ pipeline {
 		pollSCM('* * * * *')
 	}
 	stages {
+		stage("Test Trigger") {
+			steps {
+				echo "Azul a Tarek DevOps SysOps SecOps"
+			}
+		}
 		stage("Compile") {
 			steps {
 				sh "./gradlew compileJava"
