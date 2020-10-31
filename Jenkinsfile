@@ -9,6 +9,11 @@ pipeline {
 				echo "commit 1"
 			}
 		}
+		stage("Compile1") {
+			steps {
+				echo "commit 2"
+			}
+		}
 		stage("Compile") {
 			steps {
 				sh "./gradlew compileJava"
