@@ -25,6 +25,7 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+apply plugin: "checkstyle"
 apply plugin: "jacoco"
 jacocoTestCoverageVerification {
 	violationRules {
