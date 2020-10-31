@@ -14,6 +14,11 @@ pipeline {
 				echo "commit 2"
 			}
 		}
+		stage("Compile2") {
+			steps {
+				echo "commit 3"
+			}
+		}
 		stage("Compile") {
 			steps {
 				sh "./gradlew compileJava"
